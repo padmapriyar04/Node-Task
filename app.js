@@ -1,0 +1,6 @@
+console.log("Hello peeps!")
+const var1 = require('./sam-export')
+const var2 = var1.counter([1,2,3,4,5])
+const var3 = var1.sum(8,9)
+console.log(var2)
+console.log(var3)
